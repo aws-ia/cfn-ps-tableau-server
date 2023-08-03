@@ -1,0 +1,8 @@
+[submodule "submodules/cfn-ps-aws-vpc"]
+	path = submodules/cfn-ps-aws-vpc
+	url = git@github.com:aws-ia/cfn-ps-aws-vpc.git
+	branch = main
+[submodule "submodules/cfn-ps-linux-bastion"]
+	path = submodules/cfn-ps-linux-bastion
+	url = git@github.com:aws-ia/cfn-ps-linux-bastion.git
+	branch = main
