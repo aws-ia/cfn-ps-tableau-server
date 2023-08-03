@@ -1,0 +1,126 @@
+[
+    {
+        "ParameterKey": "OS",
+        "ParameterValue": "Windows"
+    },
+    {
+        "ParameterKey": "Route53HostedZone",
+        "ParameterValue": "Z03034441712JY0KSJGD1"
+    },
+    {
+        "ParameterKey": "Route53DomainName",
+        "ParameterValue": "awsquickstart.tableau.com"
+    },
+    {
+        "ParameterKey": "S3BucketName",
+        "ParameterValue": "tableau-server-data"
+    },
+    {
+        "ParameterKey": "AcceptEULA",
+        "ParameterValue": "yes"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "m6i.4xlarge"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "$[alfred_getkeypair]"
+    },
+    {
+        "ParameterKey": "SourceCIDR",
+        "ParameterValue": "10.0.0.0/0"
+    },
+    {
+        "ParameterKey": "LatestAmiId",
+        "ParameterValue": "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
+    },
+    {
+        "ParameterKey": "TableauServerAdminPassword",
+        "ParameterValue": "$[alfred_genpass_32]"
+    },
+    {
+        "ParameterKey": "TableauServerAdminUser",
+        "ParameterValue": "tabadmin"
+    },
+    {
+        "ParameterKey": "LicenseKey",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "TsmUsername",
+        "ParameterValue": "tsmadmin"
+    },
+    {
+        "ParameterKey": "TsmPassword",
+        "ParameterValue": "$[alfred_genpass_32]"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "quickstart-testing-public"
+    },
+    {
+        "ParameterKey": "QSS3KeyPrefix",
+        "ParameterValue": "quickstart-tableau-server/"
+    },
+    {
+        "ParameterKey": "QSS3BucketRegion",
+        "ParameterValue": "us-west-2"
+    },
+    {
+        "ParameterKey": "RegCity",
+        "ParameterValue": "Test City"
+    },
+    {
+        "ParameterKey": "RegCompany",
+        "ParameterValue": "Test Company"
+    },
+    {
+        "ParameterKey": "RegCountry",
+        "ParameterValue": "Test Country"
+    },
+    {
+        "ParameterKey": "RegDepartment",
+        "ParameterValue": "Test Department"
+    },
+    {
+        "ParameterKey": "RegEmail",
+        "ParameterValue": "testemail@example.com"
+    },
+    {
+        "ParameterKey": "RegFirstName",
+        "ParameterValue": "Test First Name"
+    },
+    {
+        "ParameterKey": "RegIndustry",
+        "ParameterValue": "Test Industry"
+    },
+    {
+        "ParameterKey": "RegLastName",
+        "ParameterValue": "Test Last Name"
+    },
+    {
+        "ParameterKey": "RegPhone",
+        "ParameterValue": "Test Phone"
+    },
+    {
+        "ParameterKey": "RegState",
+        "ParameterValue": "Test State"
+    },
+    {
+        "ParameterKey": "RegTitle",
+        "ParameterValue": "Test Title"
+    },
+    {
+        "ParameterKey": "RegZip",
+        "ParameterValue": "Test Zip"
+    },
+    {
+        "ParameterKey": "RegCompanyEmployees",
+        "ParameterValue": "5"
+    },
+    {
+        "ParameterKey": "RegOptIn",
+        "ParameterValue": "false"
+    }
+]
