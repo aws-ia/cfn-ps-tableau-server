@@ -1,5 +1,5 @@
 project:
-  name: quickstart-tableau-server
+  name: cfn-ps-tableau-server
   owner: quickstart-eng@amazon.com
   s3_bucket: ''
   package_lambda: false
@@ -37,7 +37,7 @@ project:
     TsmUsername: tsmadmin
     TsmPassword: $[taskcat_genpass_32]
     QSS3BucketName: $[taskcat_autobucket]
-    QSS3KeyPrefix: quickstart-tableau-server/
+    QSS3KeyPrefix: cfn-ps-tableau-server/
     QSS3BucketRegion: $[taskcat_current_region]
     RegCity: Test City
     RegCompany: Test Company
