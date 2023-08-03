@@ -6,3 +6,6 @@
 	path = submodules/cfn-ps-linux-bastion
 	url = git@github.com:aws-ia/cfn-ps-linux-bastion.git
 	branch = main
+[submodule "docs/boilerplate"]
+	path = docs/boilerplate
+	url = https://github.com/aws-ia/aws-ia-documentation-base-common.git
