@@ -159,6 +159,8 @@ Resources:
         BlockPublicPolicy: true
         IgnorePublicAcls: true
         RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
   TableauIAMRole:
     Type: AWS::IAM::Role
     Properties:
